@@ -7,13 +7,13 @@ from langchain.agents import (
 )
 from langchain import hub
 from chains.review_chain import reviews_vector_chain
-from chains.cypher_chain import cypher_chain
+from chains.cypher_chain import hospital_cypher_chain
 from tools.wait_times import (
     get_current_wait_times,
     get_most_available_hospital
 )
 
-HOSPITAL_AGENT_MODEL = os.getenv("HOSPTIAL_AGENT_MODEL")
+HOSPITAL_AGENT_MODEL = os.getenv("HOSPITAL_AGENT_MODEL")
 
 hospital_agent_prompt = hub.pull("hwchase17/openai-functions-agent")
 
