@@ -1,5 +1,5 @@
 # hosp-qa
-Hospital QA is hospital system QA chatbot built using open source LLMs and RAG.
+Hospital QA is hospital system QA chatbot built using open source LLMs and RAG. Neo4j database was used to store hospital system data.
 
 # To run:
 
