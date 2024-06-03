@@ -1,8 +1,0 @@
-[build]
-  base = "/"
-  publish = "frontend"
-  command = "docker-compose up --build"
-
-[context.production.environment]
-  FLASK_ENV = "production"
-  STREAMLIT_ENV = "production"
