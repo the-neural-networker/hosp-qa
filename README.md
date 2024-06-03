@@ -23,8 +23,6 @@ NEO4J_USERNAME=your_neo4j_username
 NEO4J_PASSWORD=your_neo4j_password
 ```
 
-See `.env_example` for an example environment file
-
 ## 3. Build and Run the Application
 Use Docker Compose to build and start the application:
 
