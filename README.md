@@ -1,5 +1,7 @@
 # hosp-qa
 Hospital QA is a chatbot designed for querying and answering questions related to hospital systems. Built using open-source Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), it leverages a Neo4j database to store and query hospital system data.
+
+This is project I built following https://realpython.com/build-llm-rag-chatbot-with-langchain to help me better understand how Retrieval Augmented Generation and LangChain work.
 # To run:
 
 ## 1. Clone the Repository
